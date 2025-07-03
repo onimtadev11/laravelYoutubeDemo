@@ -112,7 +112,7 @@
                 <h2> Create New Post </h2>
                 <form action="/create-post" method="POST">
                     @csrf
-                    <input type="text" name="title" placeholder="Post Title">
+                    <input type="text" name="title" placeholder="post title">
                     <textarea name="body" placeholder="body content....."></textarea>
                     <button style="padding-top: 20px;"> Save Post</button>
                 </form>

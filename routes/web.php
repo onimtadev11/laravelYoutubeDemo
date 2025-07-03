@@ -22,4 +22,5 @@ Route::post('/register',[UserController::class,'register']);
 Route::post('/logout', [UserController::class, 'logout']);
 Route::post('/login ',[UserController::class,'login']);
 
+//blog post trlated routes
 Route::post('/create-post',[PostController::class,'createPost']);
